@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    padding: 25px;
+    background-color: rgb(50, 131, 166);
+}
+h1{
+    color:bisque;
+    font-size: 70px;
+    text-align: center;
+    font-weight: 300;
+}
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+main h2{
+    border-bottom: 2px solid rgb(50, 131, 166);
+    font-size: 40px;
+    padding-top: 30px;
+    margin-bottom: 25px;
+}
+main p{
+    padding-bottom: 15px;
+    line-height: 1.5;
+    text-align: justify;
+}
+main figure{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;   
+}
+main figure img{
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgb(50, 131, 166);
+}
+footer{
+    background-color: rgb(50, 131, 166);
+    margin-top: 50px;
+}
+footer div{
+    width: 80%;
+    margin: 0 auto;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div ul{
+    display: flex;
+}
+footer div ul li{
+    list-style: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #fff;
+}
+footer div li a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+footer div ul li a:hover{
+    text-shadow: 2px 2px 2px rgb(255, 0, 0);
+    transition: 0.5;
+}
+nav{
+    background-color:rgb(37, 95, 121);
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-shadow: 2px 2px 2px rgb(255, 0, 0);
+    transition: 0.5;
+}
+nav .navitem:hover{
+    text-shadow: 2px 2px 2px black;
+}
+footer p{
+    text-align: center;
+    color: aliceblue;
+}
